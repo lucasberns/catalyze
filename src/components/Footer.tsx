@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Contact Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-6">CRM Agro</h3>
+            <h3 className="text-2xl font-bold mb-6">Catalyze</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent" />
@@ -56,7 +56,7 @@ const Footer = () => {
         
         <div className="border-t border-earth-foreground/20 mt-12 pt-8 text-center">
           <p className="text-sm text-earth-foreground/80">
-            © 2024 CRM Agro. Todos os direitos reservados. Desenvolvido com ❤️ para o agronegócio brasileiro.
+            © 2024 Catalyze. Todos os direitos reservados. Desenvolvido com ❤️ para o agronegócio brasileiro.
           </p>
         </div>
       </div>
