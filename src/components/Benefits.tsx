@@ -10,7 +10,7 @@ const Benefits = () => {
     {
       icon: MessageCircle,
       title: "Comunicação Automatizada",
-      description: "Envie mensagens por WhatsApp e SMS de forma automática para manter contato com seus clientes."
+      description: "Envie mensagens por WhatsApp de forma automática para manter contato com seus clientes."
     },
     {
       icon: TrendingUp,
