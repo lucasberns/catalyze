@@ -1,18 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
-
 const Pricing = () => {
-  const features = [
-    "Até 100 clientes cadastrados",
-    "Comunicação por WhatsApp e SMS",
-    "Dashboard básico de vendas",
-    "Lembretes de recompra",
-    "Suporte por email",
-    "Integração com redes sociais"
-  ];
-
-  return (
-    <section className="py-24 bg-background">
+  const features = ["Até 100 clientes cadastrados", "Comunicação por WhatsApp e SMS", "Dashboard básico de vendas", "Lembretes de recompra", "Suporte por email", "Integração com redes sociais"];
+  return <section className="py-24 bg-stone-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
@@ -44,14 +34,12 @@ const Pricing = () => {
             </div>
             
             <ul className="space-y-4 mb-8">
-              {features.map((feature, index) => (
-                <li key={index} className="flex items-center space-x-3">
+              {features.map((feature, index) => <li key={index} className="flex items-center space-x-3">
                   <div className="bg-success/20 rounded-full p-1">
                     <Check className="w-4 h-4 text-success" />
                   </div>
                   <span className="text-card-foreground">{feature}</span>
-                </li>
-              ))}
+                </li>)}
             </ul>
             
             <Button variant="cta" size="lg" className="w-full text-lg py-4 h-auto">
@@ -64,8 +52,6 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Pricing;
