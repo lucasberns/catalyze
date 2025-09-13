@@ -10,7 +10,7 @@ const HowItWorks = () => {
     {
       icon: MessageSquare,
       title: "2. Automatize a comunicação",
-      description: "Configure mensagens automáticas por WhatsApp e SMS para promoções, lembretes e follow-up pós-venda."
+      description: "Configure mensagens automáticas por WhatsApp para promoções, lembretes e follow-up pós-venda."
     },
     {
       icon: Repeat,
